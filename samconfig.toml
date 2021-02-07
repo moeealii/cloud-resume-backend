@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "visitCountTest"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-19hqek2b6u8ov"
+s3_prefix = "visitCountTest"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
